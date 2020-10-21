@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section class="signin-signup">
+            <section class="flex-section">
+                <section class="sign-in-page">
+                    <h1>Don't have an
+                        <br>account?</h1>
+                    <p>save up to save all your
+                        <br>
+                        collection</p>
+                    <button class="btn-signup" id="signup">Sign up</button>
+
+                </section>
+                <section class="sign-up-page">
+
+                    <h1>Have an account?
+                    </h1>
+                    <p>save in to save all your
+                        <br>
+                        collection</p>
+                    <button class="btn-signup" id="signin">Sign in</button>
+
+                </section>
+            </section>
+            <section class="form  " id="form">
+                
+                <h1 class="h-signup">Sign Up</h1>
+                <h1 class="h-signin">Sign In</h1>
+                <section class="input-sec user-sec">
+                     <form action="#">
+                    <i class="fa fa-user"></i>
+                   
+
+
+                    <input type="text" placeholder="Fullname">
+                </section>
+                <section class="input-sec">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email">
+                </section>
+                <section class="input-sec">
+                    <i class="fas fa-key"></i>
+                    <input type="password" placeholder="Password">
+                </section>
+                <button class="btn-signup-blue" id="signup2">Sign Up</button>
+                <button class="btn-signup-blue" id="signin2">Sign In</button>
+                <a href="">Forget Password!</a>
+            </form>
+            </section>
+
+            <!-- <section class="form2" > <h1>Sign In</h1> <section class="input-sec"> <i
+            class="fas fa-envelope"></i> <input type="email" placeholder="Email"> </section>
+            <section class="input-sec"> <i class="fas fa-key"></i> <input type="password"
+            placeholder="Password"> </section> <button class="btn-signup-blue">Sign
+            In</button> </section> -->
+        </section>
+
+        <script>
+            let signin = document.getElementById('signin')
+            let form = document.getElementById('form')
+            let signup = document.getElementById('signup')
+            signin.addEventListener('click', function name() {
+                form
+                    .classList
+                    .add('form2')
+            })
+
+            signup.addEventListener('click', function name2() {
+                form
+                    .classList
+                    .remove('form2')
+            })
+        </script>
+
+    </body>
+</html>
